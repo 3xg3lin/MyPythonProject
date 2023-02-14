@@ -17,6 +17,5 @@ while True:
         sys.exit()
     except Exception:
         print("Crashed at: " + str(len(string_to_send)))
-        print(Exception)
         sys.exit()
         
