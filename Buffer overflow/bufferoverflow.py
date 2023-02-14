@@ -35,6 +35,5 @@ try:
     mySocket.send(string_to_send.encode(encoding="latin1"))
     mySocket.close()
 except Exception:
-    print(Exception)
     sys.exit()
         
