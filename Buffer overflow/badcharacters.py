@@ -20,6 +20,5 @@ try:
 except KeyboardInterrupt:
     sys.exit()
 except Exception:
-    print(Exception)
     sys.exit()
         
