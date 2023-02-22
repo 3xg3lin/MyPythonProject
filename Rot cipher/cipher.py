@@ -8,7 +8,6 @@ def rot_func():
 def encode_message(ctype,message):
     alphabet = 'AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz'
     i=''
-    index = 0
     for i in message:
         index = 0
         while i != alphabet[index]:
