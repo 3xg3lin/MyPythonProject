@@ -1,7 +1,6 @@
 from bs4 import BeautifulSoup
 import optparse
 import requests
-import csv
 
 def opt_func():
     instance = optparse.OptionParser()
