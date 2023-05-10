@@ -25,14 +25,8 @@ def get_content(html_doc):
         file.write(soup.get_text())
 
 
-
 get_link(request_site(opt_func()))
-
-
-#with open('site_link','w',encoding='utf-8') as file:
-#    file.write(site_in_link.decode('utf-8'))
 get_content(request_site(opt_func()))
-#print(site_in_content)
-#print(request_site(opt_func()))
+
 
 
