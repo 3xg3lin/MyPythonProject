@@ -24,4 +24,4 @@ def encode_message(ctype,message):
 
 (user_input,arguments) = rot_func()
 message=input('type a message: ')
-print(encode_message(int(user_input.type),messag
+print(encode_message(int(user_input.type),message))
